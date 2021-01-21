@@ -33,3 +33,13 @@ end
 def sum_array(array)
   array.inject(0) {|sum, x| sum + x}
 end
+
+def add_s(array)
+  array.each_with_index.collect dp |word, index|
+  if index == 1
+    word
+  else
+    word + "s"
+  end
+end
+end
