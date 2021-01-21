@@ -12,6 +12,6 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    b <=> after_create
+    b <=> a
   end
 end
